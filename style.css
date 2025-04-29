@@ -1,0 +1,46 @@
+header {
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 3em;
+}
+* {
+    font-style: italic;
+    text-align: center;
+}
+body {
+    color: #000000;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+.content {
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+p {
+    font-size: 3em;
+    color: #000000;
+}
+.h2 {
+    font-size: 3em;
+    text-align: left;
+}
+.contenido {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 600px) {
+    .contenido {
+        padding: 10px;
+    }
+}
+.txt-ropa {
+    font-size: 4em;
+}
